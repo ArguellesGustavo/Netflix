@@ -238,3 +238,46 @@ footer{
 .cards__card4-icon-download{
        width: 50px;
 }
+.footer{
+    padding: 24px;
+    text-align: left;
+    
+}
+.footer__contact{
+    margin-bottom: 40px;
+    
+}
+.footer__contact a{
+    color: rgba(210, 208, 208, 0.872);
+}
+.footer__answers{
+    display: flex;
+    
+    flex-direction: column;
+}
+.footer__answers a{
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: rgba(210, 208, 208, 0.872);
+}
+.footer__language-btn{
+    border: solid 1px rgba(210, 208, 208, 0.45);
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    margin-block: 20px 20px;
+    justify-content:space-around;
+    padding: 5px;
+}
+.footer__language-btn-spain{
+    text-decoration: none;
+}
+.footer__container-country{
+    margin-block: 10px;
+}
+.footer__container-country-text{
+    color: rgba(210, 208, 208, 0.872);
+    font-size: 13px;
+    font-weight: 100;
+}
