@@ -141,3 +141,100 @@ section,
 footer{
     background: black;
 }
+.cards__card1,
+.cards__card2,
+.cards__card3,
+.cards__card4{
+    border-bottom: solid 9px rgba(255, 255, 255, 0.137);
+    border-width: 100%;
+    padding: 0 24px 10px;
+    text-align: center;
+}
+.cards__card-title{
+    font-size: 32px;
+    padding-top: 56px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.cards__card-text{
+    font-size: 18px;
+    text-align: center;
+}
+.cards__card1-container-tv{
+    position: relative;
+    margin-block: 20px 50px;
+    width: 100%;
+}
+.cards__card1-container-tv-img{
+    position: relative;
+    width: 100%;
+}
+.cards__card1-container-tv-video{
+    width: 100%;
+    position: absolute;
+    padding: 15% 13%;
+}
+.cards__card2-container-tablet{
+    position: relative;
+    width: 100%;
+    margin-block: 20px 50px;
+}
+.cards__card2-container-tablet-img{
+    position: relative;
+    width: 100%;
+}
+.cards__card2-container-tablet-video{
+    width: 90%;
+    position: absolute;
+    padding: 8% 10% 25% 19%;
+}
+.cards__card3-container-img-kid,
+.cards__card4-img{
+    width: 100%;
+}
+.cards__card3-container-img{
+    margin-block: 20px 40px;
+}
+.cards__card4-img{
+    margin-top: 25px;
+}
+.cards__card4-container-downloading{
+    border: solid 2px rgba(210, 208, 208, 0.45);
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    width: 264px;
+    height: 63px;
+    background: black;
+    margin-inline: auto;  
+    left: 0;
+    right: 0;
+    bottom: 0;  
+}
+.cards__card4{
+    text-align: center;
+}
+.cards__card4-img{
+    position: relative;
+}
+.cards__card4-container-imgAndDownloading{
+    margin-bottom: 54px;
+    position: relative;
+}
+.cards__card4-container-downloading-img{
+    width: 34px;
+    height: 48px;
+}
+.cards__card4-container-downloading-text{
+    text-align: left;
+    line-height: 0.8rem;
+}
+.cards__card4-img-span{
+    color: #0071eb;
+    font-size: 15px;
+}
+.cards__card4-icon-download{
+       width: 50px;
+}
