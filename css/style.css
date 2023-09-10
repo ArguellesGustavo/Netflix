@@ -281,3 +281,94 @@ footer{
     font-size: 13px;
     font-weight: 100;
 }
+@media (min-width: 768px) {
+    .header{
+       height: 100vh;
+   }
+   .header__container-login-btn-phone{
+       display: none;
+   }
+   .header__container-login-btn-lg{
+       display: block;
+       border: solid 1px white;
+       border-radius: 5px;
+       background: none;
+       width: 154px;
+       height: 32px;
+   }
+    .header__main__container-text2{
+       padding-inline: 40px;
+    }   
+    .header__main__container-mail,
+    .answer__mail-box{
+       flex-direction: row;
+    }
+    .header__main__container-mail-btn{
+       width: 450px;
+       height: 60px;
+    }
+   .header__main__container-btn,
+   .answer__mail-box-btn{
+       margin: 0;
+       margin-left: 10px;
+       height: 60px;
+       width: 200px;
+       font-size: 25px;
+   }
+   .cards__card-text{
+       padding-inline: 10px;
+   }
+   .cards__card1,
+   .cards__card2,
+   .cards__card3,
+   .cards__card4{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .cards__card1-container-tv,
+   .cards__card2-container-tablet,
+   .cards__card3-container-img,
+   .cards__card4-container-imgAndDownloading{
+       width: 640px;
+       height: 480px;
+   }
+   .cards__card4-container-downloading{
+       width: 410px;
+       height: 85px;
+       border-radius: 10px;
+       justify-content: space-between;
+   }
+   .cards__card4-container-downloading-img{
+       width: 45px;
+       height: 64px;
+       margin-left: 10px;
+   }
+   .cards__card4-container-downloading-text{
+       padding-right: 150px;
+   }
+   .answer__box{
+       margin: 10px;
+   }
+   .answer__mail-text{
+       padding-inline: 40px;
+   }
+   .answer__mail-box-mail{
+       width: 400px;
+       height: 60px;
+       background-color: rgba(37, 37, 37, 0.5);
+   }
+   .answer__mail-box{
+       margin-bottom: 30px;
+   }
+   .footer__answers{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: left;
+   }
+   .footer__answers a{
+       margin-right: 30px;
+   }
+   }
