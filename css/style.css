@@ -372,3 +372,89 @@ footer{
        margin-right: 30px;
    }
    }
+   @media (min-width: 1024px){
+    .header__conteiner-text-netflix{
+        font-size: 45px;
+        color: red;
+        margin-top: -10px;
+    }
+    .header__main__container-title{
+        font-size: 50px;
+        font-weight:900;
+        margin-top: 160px;
+        padding-inline: 100px;
+    }
+    .header__main__container-text1{
+        font-size: 24px;
+    }
+    .header__main__container-text2{
+        font-size: 20px;
+    }
+    .cards__card1,
+    .cards__card2,
+    .cards__card3,
+    .cards__card4{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .cards__card1-container-title,
+    .cards__card2-container-title,
+    .cards__card3-container-title,
+    .cards__card4-container-title{
+        width: 50%;
+    }
+    .cards__card-title{
+        text-align: left;
+        font-size: 48px;
+        font-weight: 900;
+        padding-bottom: 16px;        
+    }
+    .cards__card-text{
+        font-size: 24px;
+        text-align: left;
+        margin-bottom: 100px;
+        padding: 0;
+    }
+    .cards__card1-container-tv,
+    .cards__card2-container-tablet,
+    .cards__card3-container-img,
+    .cards__card4-container-imgAndDownloading{
+        width: 50%;
+        height: 50%;
+        padding-bottom: 20px;    
+    }
+    .cards__card2-container-tablet{
+        order: 1;
+    }
+    .cards__card2-container-title{
+        order: 2;
+        margin-left: 15px;
+     }
+    .cards__card4-container-title{
+        order: 2;
+    }
+    .cards__card4-container-imgAndDownloading{
+        order: 1;
+    }
+    .cards__card4-container-downloading{
+        margin-bottom: 50px;
+    }
+    .cards__card4-container-downloading-img{
+        width: 51px;
+        height: 72px;
+        margin: 10px;
+    }
+    .answer-title{
+        font-size: 48px;
+        font-weight: 900;
+    }
+    .answer__box-title{
+        font-size: 24px;
+    }
+    .answer__box-icon{
+        width: 36px;
+        height: 36px;
+    }
+}
