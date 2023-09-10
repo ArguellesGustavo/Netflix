@@ -238,3 +238,42 @@ footer{
 .cards__card4-icon-download{
        width: 50px;
 }
+.answer{
+    padding: 50px 24px;
+    border-bottom: solid 9px rgba(255, 255, 255, 0.137);
+    text-align: center;
+}
+.answer-title{
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.answer__box{
+    background-color: rgb(40, 40, 40);
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.answer__box-title{
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+}
+.answer__box-icon{
+    font-size: 18px;
+    background: none;
+    border: none;
+    font-weight: bolder;
+}
+.answer__mail{
+    margin-top: 50px;
+    padding-inline: 24px;
+}
+.answer__mail-text{
+    font-size: 18px;
+    line-height: 1.6875rem;
+    margin-bottom: 10px;
+}
+.answer__mail-box-mail{
+    width: 100%;
+}
